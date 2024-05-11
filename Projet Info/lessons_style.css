@@ -1,0 +1,96 @@
+/* Styles pour le conteneur principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Styles pour l'en-tête */
+.header {
+    background-color: #EAE6E1;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.header__slogan {
+    font-style: italic;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Styles pour la barre latérale */
+.sidebar {
+    width: 250px;
+    background-color: #EAE6E1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.sidebar__header {
+    margin-bottom: 20px;
+}
+
+.sidebar__title {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+/* Styles pour le menu des leçons */
+.lessons-menu__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lessons-menu__item {
+    margin-bottom: 10px;
+}
+
+.lessons-menu__link {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #5F5752;
+    transition: background-color 0.3s;
+}
+
+.lessons-menu__link:hover {
+    background-color: #EAE6E1;
+}
+
+/* Styles pour le contenu des leçons */
+.lessons {
+    flex: 1;
+    padding: 20px;
+}
+
+.lesson {
+    display: none;
+}
+
+.lesson__title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.lesson__content {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Styles pour le pied de page */
+.footer {
+    background-color: #EAE6E1;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
