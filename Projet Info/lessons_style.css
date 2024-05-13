@@ -1,0 +1,112 @@
+/* Styles pour le conteneur principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative; /* Ajout d'une position relative pour que les éléments enfants positionnés absolument soient positionnés par rapport à ce conteneur */
+}
+
+/* Styles pour l'en-tête */
+.header {
+    background-color: #EAE6E1;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.header__slogan {
+    font-style: italic;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Styles pour la barre latérale */
+.sidebar {
+    width: 100%; /* Prend toute la largeur du conteneur principal */
+    background-color: #EAE6E1;
+    padding: 20px;
+    position: fixed; /* Position fixe pour maintenir la barre latérale en bas de la fenêtre */
+    bottom: 0; /* Aligner le bas de la barre latérale avec le bas de la fenêtre */
+    left: 0; /* Pour aligner la barre latérale avec le côté gauche de la fenêtre */
+    z-index: 1000; /* Assurez-vous que la barre latérale est au-dessus du contenu */
+}
+
+.sidebar__header {
+    margin-bottom: 20px;
+    display: flex; /* Utiliser Flexbox */
+    align-items: center; /* Centrer verticalement */
+    justify-content: center; /* Centrer horizontalement */
+    text-align: center; /* Centrer horizontalement le texte */
+}
+
+.sidebar__title {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    text-align: center; /* Centrer horizontalement le texte */
+}
+
+.lessons-menu__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Centrer horizontalement les éléments de la liste */
+}
+
+.lessons-menu__item {
+    margin-bottom: 10px;
+}
+
+.lessons-menu__link {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #5F5752;
+    transition: background-color 0.3s;
+}
+
+.lessons-menu__link:hover {
+    background-color: #EAE6E1;
+}
+
+/* Styles pour le contenu des leçons */
+.lessons {
+    flex: 1; /* Pour que le contenu occupe tout l'espace disponible en hauteur */
+    padding: 20px;
+    position: relative; /* Ajout d'une position relative pour que le contenu puisse être positionné par rapport à ce conteneur */
+}
+
+.lesson {
+    display: none;
+}
+
+.lesson__title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.lesson__content {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Styles pour le pied de page */
+.footer {
+    background-color: #EAE6E1;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Styles pour centrer le texte */
+.lessons-content {
+    text-align: center;
+    margin-top: 50px; /* Ajoute un espace au-dessus du texte */
+    margin-bottom: 50px; /* Ajoute un espace en dessous du texte */
+}
