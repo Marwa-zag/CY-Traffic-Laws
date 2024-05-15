@@ -1,0 +1,104 @@
+/* Styles pour le corps de la page */
+body {
+    background-color: #f8f1e8; /* Nude */
+    color: #333; /* Couleur du texte */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Police de caractères */
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #D3C9BD; /* Nude */
+    color: #333; /* Couleur du texte */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styles pour le titre principal */
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Styles pour le conteneur principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles pour le conteneur des questions */
+#question-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style pour les questions */
+#question {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Style pour les options */
+#options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option-btn {
+    background-color: #D3C9BD; /* Nude */
+    color: #333; /* Couleur du texte */
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.option-btn:hover {
+    background-color: #BBADA0; /* Nude plus foncé */
+}
+
+/* Style pour le bouton "Question suivante" */
+#next-btn {
+    background-color: #D3C9BD; /* Nude */
+    color: #333; /* Couleur du texte */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#next-btn:hover {
+    background-color: #BBADA0; /* Nude plus foncé */
+}
+
+/* Style pour le score */
+#score {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styles pour le pied de page */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #D3C9BD; /* Nude */
+    color: #333; /* Couleur du texte */
+}
+
+/* Style pour le lien du pied de page */
+footer a {
+    color: #333; /* Couleur du texte */
+    text-decoration: none;
+}
+
+/* Style pour les liens du pied de page au survol */
+footer a:hover {
+    text-decoration: underline;
+}
