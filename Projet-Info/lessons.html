@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leçons</title>
+    <link rel="stylesheet" href="lessons_style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">CY Traffic Laws</h1>
+            <p class="header__slogan">Conduisez en toute confiance</p>
+        </header>
+        <main class="main">
+            <section class="lessons">
+                <h2 class="lessons__title">Leçons</h2>
+                <h3 class="lessons__subtitle">Grands Thèmes</h3>
+                <div class="lessons__themes">
+                    <div class="theme" id="theme1">
+                        <a href="#" class="theme__link" onclick="showTheme('theme1')">
+                            <h3>Les règles de circulation routière</h3>
+                            <img src="reglecirculation.webp" alt="Règles de circulation routière">
+                            <h3>Les règles de circulation routière</h3>
+                        </a>
+                    </div>
+                    <div class="theme" id="theme2">
+                        <a href="#" class="theme__link" onclick="showTheme('theme2')">
+                            <h3>Les panneaux de signalisation</h3>
+                            <img src="panneaux.jpg" alt="Panneaux de signalisation">
+                            <h3>Les panneaux de signalisation</h3>
+                        </a>
+                    </div>
+                    <div class="theme" id="theme3">
+                        <a href="#" class="theme__link" onclick="showTheme('theme3')">
+                            <h3>Le Conducteur</h3>
+                            <img src="leconducteur.jpg" alt="Le Conducteur">
+                            <h3>Le Conducteur</h3>
+                        </a>
+                    </div>
+                    <div class="theme" id="theme4">
+                        <a href="#" class="theme__link" onclick="showTheme('theme4')">
+                            <h3>Les premiers secours</h3>
+                            <img src="gestessecours.jpg" alt="Les premiers secours">
+                            <h3>Les premiers secours</h3>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lessons__content" id="theme1-content">
+                    <!-- Contenu de la section 1 -->
+                </div>
+                <div class="lessons__content" id="theme2-content">
+                    <!-- Contenu de la section 2 -->
+                </div>
+                <div class="lessons__content" id="theme3-content">
+                    <!-- Contenu de la section 3 -->
+                </div>
+                <div class="lessons__content" id="theme4-content">
+                    <!-- Contenu de la section 4 -->
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <!-- Pied de page -->
+        </footer>
+    </div>
+    <script>
+        function showTheme(themeId) {
+            // Masquer toutes les sections de leçons
+            var lessonsSections = document.querySelectorAll('.lessons__content');
+            lessonsSections.forEach(function(section) {
+                section.style.display = 'none';
+            });
+
+            // Afficher la section correspondant au thème sélectionné
+            var selectedThemeContent = document.getElementById(themeId + '-content');
+            selectedThemeContent.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
