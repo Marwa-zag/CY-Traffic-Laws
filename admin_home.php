@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Administration - CY Traffic Laws</title>
-    <link rel="stylesheet" href="admin_style.css"> 
-</head>
-<body>
-
 <?php
 session_start();
 
@@ -19,13 +9,43 @@ if (!isset($_SESSION['is_admin']) || !$_SESSION['is_admin']) {
     header("Location: projet.html");
     exit();
 }
+
+include('config.php');
+
+// Récupérer les 10 dernières connexions des utilisateurs
+$query_last_logins = "SELECT nom, prenom, email, last_login FROM users ORDER BY last_login DESC LIMIT 10";
+$result_last_logins = mysqli_query($conn, $query_last_logins);
+
+if (!$result_last_logins) {
+    die("Erreur lors de l'exécution de la requête: " . mysqli_error($conn));
+}
+
+// Récupérer les 10 derniers messages du forum
+$query_last_messages = "SELECT forum_posts.content, forum_posts.created_at, users.nom, users.prenom 
+                        FROM forum_posts 
+                        JOIN users ON forum_posts.user_id = users.id 
+                        ORDER BY forum_posts.created_at DESC LIMIT 10";
+$result_last_messages = mysqli_query($conn, $query_last_messages);
+
+if (!$result_last_messages) {
+    die("Erreur lors de l'exécution de la requête: " . mysqli_error($conn));
+}
 ?>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration - CY Traffic Laws</title>
+    <link rel="stylesheet" href="admin_style.css"> 
+</head>
+<body>
 
 <div id="welcome-message">
     <?php
     if (isset($_SESSION['is_admin']) && $_SESSION['is_admin']) {
         echo "<p>Bonjour Admin, ça fait longtemps! Ravi de vous revoir.</p>";
-        echo "<p>Dernière connexion : " . (isset($_SESSION['last_login']) ? $_SESSION['last_login'] : '') . "</p>";
     }
     ?>
 </div>
@@ -55,6 +75,47 @@ if (!isset($_SESSION['is_admin']) || !$_SESSION['is_admin']) {
     </header>
 </div>
 
+<div class="content">
+    <section class="last-logins">
+        <h2>Dernières connexions des utilisateurs</h2>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Email</th>
+                <th>Dernière connexion</th>
+            </tr>
+            <?php while ($row = mysqli_fetch_assoc($result_last_logins)) : ?>
+                <tr>
+                    <td><?php echo htmlspecialchars($row['nom']); ?></td>
+                    <td><?php echo htmlspecialchars($row['prenom']); ?></td>
+                    <td><?php echo htmlspecialchars($row['email']); ?></td>
+                    <td><?php echo htmlspecialchars($row['last_login']); ?></td>
+                </tr>
+            <?php endwhile; ?>
+        </table>
+    </section>
+
+    <section class="last-messages">
+        <h2>Derniers messages du forum</h2>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Date</th>
+                <th>Message</th>
+            </tr>
+            <?php while ($row = mysqli_fetch_assoc($result_last_messages)) : ?>
+                <tr>
+                    <td><?php echo htmlspecialchars($row['nom']); ?></td>
+                    <td><?php echo htmlspecialchars($row['prenom']); ?></td>
+                    <td><?php echo htmlspecialchars($row['created_at']); ?></td>
+                    <td><?php echo htmlspecialchars($row['content']); ?></td>
+                </tr>
+            <?php endwhile; ?>
+        </table>
+    </section>
+</div>
 
 <footer class="footer">
     <div class="container">

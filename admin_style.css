@@ -152,3 +152,36 @@ body {
     height: auto;
     cursor: pointer;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header__title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.section h2 {
+    text-align: center;
+    margin-top: 20px;
+}
