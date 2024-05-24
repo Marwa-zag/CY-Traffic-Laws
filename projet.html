@@ -10,7 +10,7 @@
             const welcomeMessageDiv = document.getElementById('welcome-message');
             const navList = document.querySelector('.nav__list');
             const loginIconContainer = document.getElementById('login-icon-container');
-    
+
             fetch('session.php')
                 .then(response => response.json())
                 .then(data => {
@@ -26,8 +26,7 @@
                             <li class="nav__item"><a href="forum.html" class="nav__link">Forum de Discussion</a></li>
                             <li class="nav__item"><a href="manage_account.php" class="nav__link">Mon Compte</a></li>
                         `;
-                        if (data.role === 'admin') {
-                            // Afficher le lien vers l'espace admin
+                        if (data.is_admin) {
                             navList.innerHTML += `
                                 <li class="nav__item"><a href="admin_home.php" class="nav__link">Espace Admin</a></li>
                             `;
@@ -46,7 +45,7 @@
                     }
                 });
         });
-    </script>    
+    </script>
 </head>
 <body>
 <div id="welcome-message"></div>
