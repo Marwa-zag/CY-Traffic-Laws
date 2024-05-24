@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Code de la route</title>
+    <link rel="stylesheet" href="register_style.css"> <!-- Lien vers le fichier CSS pour le style -->
+    <script type="text/javascript">
+        // Validation JavaScript avant l'envoi du formulaire
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('register-form').addEventListener('submit', function(e) {
+                var password = document.getElementById('password').value;
+                var confirmPassword = document.getElementById('confirm-password').value;
+
+                if (password !== confirmPassword) {
+                    alert('Les mots de passe ne correspondent pas !');
+                    e.preventDefault(); // Empêche l'envoi du formulaire
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Inscription</h1>
+</header>
+
+<main>
+    <section id="register-form">
+        <h2>Créer un nouveau compte</h2>
+        <form action="register.php" method="POST">
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+                <label for="genre">Genre :</label>
+                <div class="radio-buttons">
+                    <input type="radio" name="Genre" id="masculin" value="h">
+                    <label for="masculin"> Masculin</label>
+                </div>
+                <div class="radio-buttons">
+                    <input type="radio" name="Genre" id="feminin" value="f">
+                    <label for="feminin"> Féminin</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Adresse email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirmer le mot de passe :</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Date de naissance :</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>                      
+           
+            <button type="submit">S'inscrire</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Réalisation & design : @Marwa @Mariam @Hafsa.</p>
+</footer>
+
+</body>
+</html>
