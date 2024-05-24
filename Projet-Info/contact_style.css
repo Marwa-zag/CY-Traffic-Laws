@@ -1,0 +1,80 @@
+/* Styles pour le corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EAE6E1;
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #EAE6E1;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styles pour le titre principal */
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Styles pour la section principale */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Styles pour le formulaire */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Styles pour les étiquettes des champs */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Styles pour les champs de saisie */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styles pour le bouton d'envoi */
+input[type="submit"] {
+    background-color: #EAE6E1;
+    color: #333;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Styles pour le pied de page */
+footer {
+    text-align: center;
+    background-color: #EAE6E1;
+    color: #333;
+    padding: 20px 0;
+}
