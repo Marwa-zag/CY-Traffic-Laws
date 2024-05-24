@@ -1,0 +1,183 @@
+[
+    {
+        "imageSrc": "exam1.png",
+        "options": ["A", "B"],
+        "answer": "B",
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam2.png",
+        "options": ["A", "B"],
+        "answer": "A",
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam3.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": "C",
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam4.png",
+        "options": ["A", "B", "C"],
+        "answer": "A",
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam5.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam6.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam7.png",
+        "options": ["A", "B"],
+        "answer": "A",
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam8.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam9.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["B","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam10.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam11.png",
+        "options": ["A", "B"],
+        "answer": "B",
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam12.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam13.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["B","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam14.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam15.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["B","D"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam16.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","D"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam17.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": "B",
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam18.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam19.png",
+        "options": ["A", "B"],
+        "answer": "B",
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam20.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","D"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam21.png",
+        "options": ["A", "B"],
+        "answer": "A",
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam22.png",
+        "options": ["A", "B"],
+        "answer": "A",
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam23.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam24.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam25.png",
+        "options": ["A", "B", "C"],
+        "answer": ["A","B"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam26.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam27.png",
+        "options": ["A", "B"],
+        "answer": "B",
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam28.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam29.png",
+        "options": ["A", "B", "C", "D"],
+        "answer": ["A","C"],
+        "timeLimit": 10
+    },
+    {
+        "imageSrc": "exam30.png",
+        "options": ["A", "B"],
+        "answer": "A",
+        "timeLimit": 10
+    }
+]
+
