@@ -71,7 +71,8 @@
                     newPostContent.value = '';
                     loadForum();
                 } else {
-                    alert('Erreur lors de l\'envoi du message.');
+                    alert('Erreur lors de l\'envoi du message : ' + data.message);
+                    console.log(data.debug);
                 }
             });
         });

@@ -1,6 +1,10 @@
 /* Styles pour le corps de la page */
 body {
-    background-color: #f2f2f2; /* Couleur de fond */
+    background-image: url('code_route.webp'); /* Remplacez 'votre_image_de_fond.jpg' par le chemin de votre image de fond */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2; /* Ajoutez la couleur de fond en cas d'échec du chargement de l'image */
     color: #5F5752; /* Couleur du texte */
     margin: 0;
     font-family: Arial, sans-serif; /* Police de caractères */
@@ -106,7 +110,6 @@ body {
 .active .bar:nth-child(3) {
     transform: rotate(45deg) translate(-5px, -5px);
 }
-
 
 /* Styles pour les séries d'entraînement */
 .series-container {
