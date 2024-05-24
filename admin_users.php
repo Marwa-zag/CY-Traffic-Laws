@@ -39,28 +39,31 @@ switch ($action) {
         // Supprimer l'utilisateur de la base de données
         $delete_user_query = "DELETE FROM users WHERE id = $user_id";
         if ($conn->query($delete_user_query) === TRUE) {
-            // Vérifier si l'utilisateur a été supprimé avec succès
-            $user_deleted = true;
+            $_SESSION['message'] = "Utilisateur supprimé avec succès.";
         } else {
             $_SESSION['message'] = "Erreur lors de la suppression de l'utilisateur : " . htmlspecialchars($conn->error);
         }
         break;
     case 'deactivate':
         $query = "UPDATE users SET active = 0 WHERE id = $user_id";
+        if ($conn->query($query) === TRUE) {
+            $_SESSION['message'] = "Utilisateur désactivé avec succès.";
+        } else {
+            $_SESSION['message'] = "Erreur lors de la désactivation de l'utilisateur : " . htmlspecialchars($conn->error);
+        }
         break;
     case 'activate':
         $query = "UPDATE users SET active = 1 WHERE id = $user_id";
+        if ($conn->query($query) === TRUE) {
+            $_SESSION['message'] = "Utilisateur activé avec succès.";
+        } else {
+            $_SESSION['message'] = "Erreur lors de l'activation de l'utilisateur : " . htmlspecialchars($conn->error);
+        }
         break;
     default:
         $_SESSION['message'] = "Action non reconnue.";
         header("Location: manage_users.php");
         exit();
-}
-
-if (isset($user_deleted) && $user_deleted) {
-    $_SESSION['message'] = "Utilisateur supprimé avec succès.";
-} elseif (!isset($_SESSION['message'])) {
-    $_SESSION['message'] = "Action réalisée avec succès.";
 }
 
 $conn->close();
