@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se connecter</title>
+    <link rel="stylesheet" href="login_style.css"> 
+</head>
+<body>
+
+<header>
+    <h1>Se connecter</h1>
+</header>
+<nav>
+    <ul>
+        <a href="projet.html"><img src="fleche.png" alt="Retour" width="20" height="20"></a>
+    </ul>
+</nav>
+
+<main>
+    <section id="login">
+        <h2>Connectez-vous à votre compte</h2>
+        <!-- Afficher les messages d'erreur -->
+        <p id="error-message" class="error"></p>
+        <form id="loginForm" action="login.php" method="post">
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required><br>
+            <button type="submit">Se connecter</button>
+        </form>
+        <p>Si vous n'avez pas encore de compte, <a href="register.html">inscrivez-vous ici</a>.</p>
+    </section>
+</main>
+
+<footer>
+    <p>Réalisation & design : @Marwa @Mariam @Hafsa.</p>
+</footer>
+
+<script>
+// Fonction pour récupérer les paramètres de la requête
+function getQueryParams() {
+    const params = {};
+    const queryString = window.location.search.substring(1);
+    const regex = /([^&=]+)=([^&]*)/g;
+    let m;
+    while (m = regex.exec(queryString)) {
+        params[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
+    }
+    return params;
+}
+
+// Afficher le message d'erreur s'il existe
+const params = getQueryParams();
+if (params.error) {
+    document.getElementById('error-message').innerText = params.error;
+}
+</script>
+
+</body>
+</html>
