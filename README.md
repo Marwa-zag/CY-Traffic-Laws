@@ -3,6 +3,7 @@ CY Traffic Laws
 **Utilisation de MAMP pour la Base de Données**
 
 Pour accéder à notre base de données, nous utilisons MAMP, un environnement de développement local qui comprend Apache, MySQL et PHP.
+PHP version : 7.4.33
 
 **Accès à la Base de Données :**
 
