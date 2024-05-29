@@ -1,0 +1,129 @@
+[
+    {
+        "question": "Qu'est-ce que l'angle mort d'un véhicule ?",
+        "imageSrc": "Image/securite_1.jpeg",
+        "options": ["A. La partie du véhicule la plus fragile en cas d'accident", "B. La zone que le conducteur ne peut pas voir dans les rétroviseurs", "C. L'endroit où les piétons doivent traverser"],
+        "answer": "B. La zone que le conducteur ne peut pas voir dans les rétroviseurs",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que doit-on faire en cas de crevaison sur l'autoroute ?",
+        "imageSrc": "Image/securite_2.jpg",
+        "options": ["A. Continuer à rouler lentement jusqu'à la prochaine sortie", "B. Se garer sur la bande d'arrêt d'urgence et mettre le triangle de sécurité", "C. Appeler un ami pour qu'il vienne changer la roue"],
+        "answer": "B. Se garer sur la bande d'arrêt d'urgence et mettre le triangle de sécurité",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la première chose à faire en cas d'accident de la route ?",
+        "imageSrc": "Image/securite_3.jpg",
+        "options": ["A. Appeler un avocat", "B. Faire un constat à l'amiable", "C. Protéger les lieux et secourir les blessés"],
+        "answer": "C. Protéger les lieux et secourir les blessés",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que signifie ce panneau ?",
+        "imageSrc": "Image/securite_4.jpg",
+        "options": ["A. Attention, passage pour piétons", "B. Zone de danger", "C. Risque de glissade"],
+        "answer": "A. Attention, passage pour piétons",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la limite de vitesse sur une autoroute en conditions normales ?",
+        "imageSrc": "Image/securite_5.jpg",
+        "options": ["A. 110 km/h", "B. 130 km/h", "C. 90 km/h"],
+        "answer": "B. 130 km/h",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que signifie ce panneau ?",
+        "imageSrc": "Image/securite_6.jpeg",
+        "options": ["A. Zone de travaux", "B. Attention, route glissante", "C. Route barrée"],
+        "answer": "A. Zone de travaux",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quel est le premier geste à faire en cas de panne sur l'autoroute ?",
+        "imageSrc": "Image/securite_7.jpg",
+        "options": ["A. Sortir du véhicule et appeler les secours", "B. Allumer les feux de détresse et mettre le gilet de sécurité", "C. Tenter de réparer le véhicule sur place"],
+        "answer": "B. Allumer les feux de détresse et mettre le gilet de sécurité",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que signifie ce panneau ?",
+        "imageSrc": "Image/securite_8.jpg",
+        "options": ["A. Interdiction de dépasser", "B. Fin de la zone de danger", "C. Cédez le passage"],
+        "answer": "A. Interdiction de dépasser",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quel est le premier réflexe à avoir en cas d'aquaplaning ?",
+        "imageSrc": "Image/securite_9.jpg",
+        "options": ["A. Freiner brusquement", "B. Accélérer pour reprendre le contrôle du véhicule", "C. Lâcher l'accélérateur et maintenir le volant droit"],
+        "answer": "C. Lâcher l'accélérateur et maintenir le volant droit",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que signifie ce panneau ?",
+        "imageSrc": "Image/securite_10.jpg",
+        "options": ["A. Route glissante", "B. Fin de la zone de danger", "C. Passage pour piétons"],
+        "answer": "A. Route glissante",
+        "timeLimit": 10
+    },
+    {
+        "question": "Qu'est-ce que l'ABS sur un véhicule ?",
+        "imageSrc": "Image/securite_11.jpeg",
+        "options": ["A. Un système de freinage automatique", "B. Un système de freinage antiblocage", "C. Un système d'alarme sonore"],
+        "answer": "B. Un système de freinage antiblocage",
+        "timeLimit": 10
+    },
+    {
+        "question": "Comment ajuster correctement les appuie-tête d'un véhicule ?",
+        "imageSrc": "Image/securite_12.jpg",
+        "options": ["A. Les régler à la hauteur des épaules", "B. Les régler à la hauteur des yeux", "C. Les régler à la hauteur de la tête"],
+        "answer": "A. Les régler à la hauteur des épaules",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que signifie ce panneau ?",
+        "imageSrc": "Image/securite_13.jpeg",
+        "options": ["A. Route prioritaire", "B. Cédez le passage", "C. Intersection"],
+        "answer": "C. Intersection",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la règle à respecter en cas de croisement avec un véhicule venant en sens inverse ?",
+        "imageSrc": "Image/securite_14.jpg",
+        "options": ["A. Ralentir et se rabattre à droite", "B. Continuer à vitesse constante", "C. Klaxonner pour avertir l'autre conducteur"],
+        "answer": "A. Ralentir et se rabattre à droite",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la distance minimale à respecter lorsqu'on double un cycliste ?",
+        "imageSrc": "Image/securite_15.jpeg",
+        "options": ["A. 0,5 mètre", "B. 1 mètre", "C. 2 mètres"],
+        "answer": "B. 1 mètre",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que signifie cette bande ?",
+        "imageSrc": "Image/securite_16.jpg",
+        "options": ["A. Route prioritaire", "B. Cédez le passage", "C. Passage pour piétons"],
+        "answer": "C. Passage pour piétons",
+        "timeLimit": 10
+    },
+    {
+        "question": "Qu'est-ce que l'ESP sur un véhicule ?",
+        "imageSrc": "Image/securite_17.jpg",
+        "options": ["A. Un système de contrôle de stabilité", "B. Un système de détection de collision", "C. Un système de régulateur de vitesse"],
+        "answer": "A. Un système de contrôle de stabilité",
+        "timeLimit": 10
+    },
+    {
+        "question": "Dans un croisement, qu'est-ce qu'une ligne de dissuasion ?",
+        "imageSrc": "Image/securite_18.jpg",
+        "options": ["A. Une ligne indiquant la voie à suivre", "B. Une ligne indiquant la priorité", "C. Une ligne interdisant le dépassement"],
+        "answer": "C. Une ligne interdisant le dépassement",
+        "timeLimit": 10
+    }
+]
+

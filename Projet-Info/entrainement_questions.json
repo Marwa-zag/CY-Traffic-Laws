@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Quelle est la signification d'un feu de signalisation orange ?",
+        "imageSrc": "Image/img3.jpg",
+        "options": [
+            "A. Arr\u00eat obligatoire",
+            "B. Feu \u00e9teint",
+            "C. Feu va passer au rouge"
+        ],
+        "answer": "C. Feu va passer au rouge",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que signifie un panneau de signalisation rond avec un symbole blanc en son centre ?",
+        "imageSrc": "Image/img4.jpg",
+        "options": [
+            "A. Limitation de vitesse",
+            "B. Obligation",
+            "C. Interdiction"
+        ],
+        "answer": "C. Interdiction",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quel est le comportement \u00e0 adopter en cas de pluie sur autoroute ?",
+        "imageSrc": "Image/img5.jpg",
+        "options": [
+            "A. Ralentir",
+            "B. Allumer les feux de brouillard",
+            "C. Garder la m\u00eame vitesse"
+        ],
+        "answer": "B. Allumer les feux de brouillard",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la signification d'un panneau triangulaire avec un dessin d'un enfant ?",
+        "imageSrc": "Image/img7.jpg",
+        "options": [
+            "A. Zone de jeu pour enfants",
+            "B. \u00c9cole \u00e0 proximit\u00e9",
+            "C. Aire de jeux"
+        ],
+        "answer": "A. Zone de jeu pour enfants",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que signifie une ligne continue sur la route ?",
+        "imageSrc": "Image/img8.jpg",
+        "options": [
+            "A. Interdiction de stationner",
+            "B. Interdiction de d\u00e9passer",
+            "C. Zone de priorit\u00e9"
+        ],
+        "answer": "B. Interdiction de d\u00e9passer",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quel est le comportement \u00e0 adopter en cas de brouillard dense ?",
+        "imageSrc": "Image/feux-antibrouillard-arriere.jpg",
+        "options": [
+            "A. Allumer les feux de croisement",
+            "B. Ralentir",
+            "C. Allumer les feux de brouillard"
+        ],
+        "answer": "C. Allumer les feux de brouillard",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la distance de s\u00e9curit\u00e9 minimale recommand\u00e9e en cas de pluie sur autoroute ?",
+        "imageSrc": "Image/img9.jpg",
+        "options": [
+            "A. Au moins 50 m\u00e8tres",
+            "B. Au moins 70 m\u00e8tres",
+            "C. Au moins 100 m\u00e8tres"
+        ],
+        "answer": "B. Au moins 70 m\u00e8tres",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la signification d'un feu de signalisation vert clignotant ?",
+        "imageSrc": "Image/img10.jpg",
+        "options": [
+            "A. Passage autoris\u00e9",
+            "B. Passage avec prudence",
+            "C. Feu \u00e9teint"
+        ],
+        "answer": "B. Passage avec prudence",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la signification d'un feu de signalisation rouge clignotant ?",
+        "imageSrc": "Image/img11.jpg",
+        "options": [
+            "A. Arr\u00eat obligatoire",
+            "B. Passage autoris\u00e9",
+            "C. Feu \u00e9teint"
+        ],
+        "answer": "A. Arr\u00eat obligatoire",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la signification d'un panneau de signalisation rond avec une bande blanche horizontale au milieu ?",
+        "imageSrc": "Image/img12.jpg",
+        "options": [
+            "A. D\u00e9but de toutes les interdictions",
+            "B. Fin de toutes les interdictions",
+            "C. Limitation de vitesse"
+        ],
+        "answer": "B. Fin de toutes les interdictions",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la sanction pour l'usage du t\u00e9l\u00e9phone portable au volant sans kit mains libres ?",
+        "imageSrc": "Image/img13.jpg",
+        "options": [
+            "A. Amende",
+            "B. Retrait de points",
+            "C. Les deux"
+        ],
+        "answer": "C. Les deux",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la limite maximale d'alcool\u00e9mie tol\u00e9r\u00e9e pour un conducteur novice ?",
+        "imageSrc": "Image/img14.jpg",
+        "options": [
+            "A. 0,2 g\/l",
+            "B. 0,5 g\/l",
+            "C. 0,8 g\/l"
+        ],
+        "answer": "A. 0,2 g\/l",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quel est le symbole d'un pneu en mauvais \u00e9tat sur le tableau de bord ?",
+        "imageSrc": "Image/img15.jpg",
+        "options": [
+            "A. Un triangle jaune",
+            "B. Un point d'exclamation dans un cercle",
+            "C. Un point d'interrogation"
+        ],
+        "answer": "B. Un point d'exclamation dans un cercle",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la signification d'un panneau de signalisation rectangulaire avec un dessin de train traversant une barri\u00e8re ?",
+        "imageSrc": "Image/img16.jpg",
+        "options": [
+            "A. Fin de toutes les interdictions",
+            "B. D\u00e9but de toutes les interdictions",
+            "C. Passage \u00e0 niveau"
+        ],
+        "answer": "C. Passage \u00e0 niveau",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quel est le comportement \u00e0 adopter lorsque l'on approche d'un passage \u00e0 niveau avec des barri\u00e8res abaiss\u00e9es ?",
+        "imageSrc": "Image/img17.jpg",
+        "options": [
+            "A. Passer avec prudence",
+            "B. S'arr\u00eater et attendre que les barri\u00e8res se l\u00e8vent",
+            "C. Ralentir"
+        ],
+        "answer": "B. S'arr\u00eater et attendre que les barri\u00e8res se l\u00e8vent",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la premi\u00e8re chose \u00e0 faire en cas d'accident de la route ?",
+        "imageSrc": "Image/img18.jpg",
+        "options": [
+            "A. Appeler la police",
+            "B. Assurer la s\u00e9curit\u00e9 des personnes impliqu\u00e9es",
+            "C. Prendre des photos"
+        ],
+        "answer": "B. Assurer la s\u00e9curit\u00e9 des personnes impliqu\u00e9es",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la signification d'un panneau de signalisation carr\u00e9 avec un dessin d'un arbre et d'un banc ?",
+        "imageSrc": "Image/img19.jpg",
+        "options": [
+            "A. Aire de repos",
+            "B. Parc naturel",
+            "C. Zone de pique-nique"
+        ],
+        "answer": "C. Zone de pique-nique",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la signification d'un feu de signalisation bleu ?",
+        "imageSrc": "Image/img20.jpg",
+        "options": [
+            "A. Arr\u00eat obligatoire",
+            "B. Voie r\u00e9serv\u00e9e",
+            "C. Feu \u00e9teint"
+        ],
+        "answer": "B. Voie r\u00e9serv\u00e9e",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la distance minimale de d\u00e9passement d'un cycliste sur la route ?",
+        "imageSrc": "Image/img21.jpg",
+        "options": [
+            "A. Au moins 50 cm",
+            "B. Au moins 1 m\u00e8tre",
+            "C. Au moins 2 m\u00e8tres"
+        ],
+        "answer": "B. Au moins 1 m\u00e8tre",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la signification de ce panneau ?",
+        "imageSrc": "Image/img22.jpg",
+        "options": [
+            "A. D\u00e9but de la zone de danger",
+            "B. Fin de la zone de danger",
+            "C. Route sinueuse"
+        ],
+        "answer": "A. D\u00e9but de la zone de danger",
+        "timeLimit": 10
+    }
+]

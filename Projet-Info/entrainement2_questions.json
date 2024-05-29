@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Dans un rond-point, quel véhicule a la priorité ?",
+        "imageSrc": "Image/rond_point_1.jpg",
+        "options": ["A. Les véhicules venant de la droite", "B. Les véhicules venant de la gauche", "C. Les véhicules venant de l'extérieur du rond-point"],
+        "answer": "C. Les véhicules venant de l'extérieur du rond-point",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la règle à respecter pour circuler dans un rond-point ?",
+        "imageSrc": "Image/rond_point_2.jpg",
+        "options": ["A. Toujours céder le passage aux véhicules déjà engagés dans le rond-point", "B. Rester sur la voie de gauche", "C. Accélérer pour sortir rapidement"],
+        "answer": "A. Toujours céder le passage aux véhicules déjà engagés dans le rond-point",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que signifie ce panneau ?",
+        "imageSrc": "Image/rond_point_3.jpeg",
+        "options": ["A. Cédez le passage", "B. Priorité à droite", "C. Accès interdit"],
+        "answer": "A. Cédez le passage",
+        "timeLimit": 10
+    },
+    {
+        "question": "Comment doit-on indiquer sa sortie d'un rond-point ?",
+        "imageSrc": "Image/rond_point_4.jpg",
+        "options": ["A. En allumant les feux de détresse", "B. En mettant le clignotant à gauche", "C. En mettant le clignotant à droite"],
+        "answer": "C. En mettant le clignotant à droite",
+        "timeLimit": 10
+    },
+    {
+        "question": "Peut-on faire demi-tour dans un rond-point ?",
+        "imageSrc": "Image/rond_point_5.jpg",
+        "options": ["A. Oui, à condition d'indiquer le demi-tour avec le clignotant", "B. Non, c'est interdit", "C. Oui, si le rond-point est désert"],
+        "answer": "B. Non, c'est interdit",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle voie doit-on utiliser pour faire un tour complet dans un rond-point ?",
+        "imageSrc": "Image/rond_point_6.jpg",
+        "options": ["A. La voie de droite", "B. La voie de gauche", "C. Peu importe la voie"],
+        "answer": "B. La voie de gauche",
+        "timeLimit": 10
+    },
+    {
+        "question": "À quel moment doit-on indiquer sa sortie d'un rond-point ?",
+        "imageSrc": "Image/rond_point_7.jpg",
+        "options": ["A. En arrivant à la sortie", "B. En s'engageant dans le rond-point", "C. Juste avant la sortie"],
+        "answer": "C. Juste avant la sortie",
+        "timeLimit": 10
+    },
+    {
+        "question": "Peut-on changer de voie à l'intérieur d'un rond-point ?",
+        "imageSrc": "Image/rond_point_8.jpg",
+        "options": ["A. Oui, mais seulement à droite", "B. Oui, à condition de bien indiquer le changement de voie", "C. Non, il faut rester sur sa voie"],
+        "answer": "C. Non, il faut rester sur sa voie",
+        "timeLimit": 10
+    },
+    {
+        "question": "Comment doit-on se comporter lorsqu'on arrive à un rond-point ?",
+        "imageSrc": "Image/rond_point_9.jpeg",
+        "options": ["A. Ralentir et observer les autres véhicules en circulation", "B. Accélérer pour s'engager rapidement", "C. Klaxonner pour prévenir les autres automobilistes"],
+        "answer": "A. Ralentir et observer les autres véhicules en circulation",
+        "timeLimit": 10
+    },
+    {
+        "question": "Dans un rond-point, qui doit-on laisser passer en premier ?",
+        "imageSrc": "Image/rond_point_10.jpg",
+        "options": ["A. Les piétons qui traversent", "B. Les véhicules venant de la droite", "C. Les véhicules qui veulent sortir du rond-point"],
+        "answer": "B. Les véhicules venant de la droite",
+        "timeLimit": 10
+    },
+    {
+        "question": "Peut-on s'arrêter dans un rond-point ?",
+        "imageSrc": "Image/rond_point_11.jpg",
+        "options": ["A. Oui, pour laisser passer un piéton", "B. Non, sauf en cas de panne", "C. Oui, si on veut se reposer"],
+        "answer": "B. Non, sauf en cas de panne",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle voie doit-on prendre pour tourner à droite dans un rond-point ?",
+        "imageSrc": "Image/rond_point_12.jpg",
+        "options": ["A. La voie de droite", "B. La voie de gauche", "C. La voie du milieu"],
+        "answer": "A. La voie de droite",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que signifie cette ligne ?",
+        "imageSrc": "Image/rond_point_13.jpg",
+        "options": ["A. Priorité à droite", "B. Cédez le passage", "C. Danger"],
+        "answer": "B. Cédez le passage",
+        "timeLimit": 10
+    },
+    {
+        "question": "Peut-on faire marche arrière dans un rond-point ?",
+        "imageSrc": "Image/rond_point_14.jpg",
+        "options": ["A. Oui, si on s'est trompé de sortie", "B. Oui, pour laisser passer un piéton", "C. Non, c'est interdit"],
+        "answer": "C. Non, c'est interdit",
+        "timeLimit": 10
+    },
+    {
+        "question": "Comment doit-on se comporter lorsqu'on circule dans un rond-point ?",
+        "imageSrc": "Image/rond_point_15.jpg",
+        "options": ["A. En accélérant pour sortir rapidement", "B. En klaxonnant pour prévenir les autres automobilistes", "C. En restant vigilant et en cédant le passage aux véhicules déjà engagés"],
+        "answer": "C. En restant vigilant et en cédant le passage aux véhicules déjà engagés",
+        "timeLimit": 10
+    }
+]

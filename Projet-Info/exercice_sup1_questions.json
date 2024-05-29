@@ -1,0 +1,72 @@
+[
+    {
+        "question": "Qu'est-ce que l'angle mort d'un véhicule ?",
+        "imageSrc": "Image/angele_mort.jpeg",
+        "options": ["A. La partie du véhicule la plus fragile en cas d'accident", "B. La zone que le conducteur ne peut pas voir dans les rétroviseurs", "C. L'endroit où les piétons doivent traverser"],
+        "answer": "B. La zone que le conducteur ne peut pas voir dans les rétroviseurs",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la limite de vitesse en agglomération sauf indication contraire ?",
+        "imageSrc": "Image/agglo.jpg",
+        "options": ["A. 30 km/h", "B. 50 km/h", "C. 70 km/h"],
+        "answer": "B. 50 km/h",
+        "timeLimit": 10
+    },
+    {
+        "question": "À quoi sert une bande d'arrêt d'urgence sur autoroute ?",
+        "imageSrc": "Image/autoroute.jpg",
+        "options": ["A. Stationnement temporaire en cas de panne", "B. Voie réservée aux véhicules lents", "C. Zone de dépassement"],
+        "answer": "A. Stationnement temporaire en cas de panne",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quel document doit toujours être présent dans le véhicule ?",
+        "imageSrc": "Image/papier.webp",
+        "options": ["A. Permis de conduire", "B. Passeport", "C. Certificat de naissance"],
+        "answer": "A. Permis de conduire",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la fonction des feux antibrouillard arrière ?",
+        "imageSrc": "Image/feux-antibrouillard-arriere.jpg",
+        "options": ["A. Améliorer la visibilité dans le brouillard", "B. Signaler un freinage d'urgence", "C. Aider au stationnement"],
+        "answer": "A. Améliorer la visibilité dans le brouillard",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que faire en cas de perte de contrôle sur une route verglacée ?",
+        "imageSrc": "Image/verglas.jpeg",
+        "options": ["A. Freiner brusquement", "B. Tourner rapidement le volant", "C. Lever le pied de l'accélérateur et diriger doucement le volant"],
+        "answer": "C. Lever le pied de l'accélérateur et diriger doucement le volant",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quand devez-vous utiliser les clignotants ?",
+        "imageSrc": "Image/cligno.jpg",
+        "options": ["A. Seulement en tournant à gauche", "B. Seulement en tournant à droite", "C. Lors de tout changement de direction"],
+        "answer": "C. Lors de tout changement de direction",
+        "timeLimit": 10
+    },
+    {
+        "question": "Comment devez-vous aborder un rond-point ?",
+        "imageSrc": "Image/rond.jpg",
+        "options": ["A. En cédant le passage aux véhicules dans le rond-point", "B. En entrant rapidement pour ne pas ralentir le trafic", "C. En ayant toujours la priorité sur les autres"],
+        "answer": "A. En cédant le passage aux véhicules dans le rond-point",
+        "timeLimit": 10
+    },
+    {
+        "question": "Que signifie un panneau de limitation de vitesse avec une inscription 'Zone 30' ?",
+        "imageSrc": "Image/Zone-30.jpg",
+        "options": ["A. La vitesse maximale autorisée est 30 km/h", "B. La vitesse minimale autorisée est 30 km/h", "C. La vitesse recommandée est 30 km/h"],
+        "answer": "A. La vitesse maximale autorisée est 30 km/h",
+        "timeLimit": 10
+    },
+    {
+        "question": "Quelle est la couleur des feux de détresse ?",
+        "imageSrc": "Image/detresse.jpg",
+        "options": ["A. Rouge", "B. Orange", "C. Bleu"],
+        "answer": "B. Orange",
+        "timeLimit": 10
+    }
+]
