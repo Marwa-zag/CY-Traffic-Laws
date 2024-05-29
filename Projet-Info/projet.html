@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Définition de l'encodage de caractères et du viewport pour le responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre de la page -->
+    <title>Code de la route</title>
+    <!-- Lien vers le fichier CSS pour le style de la page -->
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Initialisation des éléments DOM
+            const welcomeMessageDiv = document.getElementById('welcome-message');
+            const navList = document.querySelector('.nav__list');
+            const loginIconContainer = document.getElementById('login-icon-container');
+
+            // Requête pour vérifier la session de l'utilisateur
+            fetch('session.php')
+                .then(response => response.json())
+                .then(data => {
+                    // Si l'utilisateur est connecté, affichage du message de bienvenue et des options de navigation
+                    if (data.prenom) {
+                        let profilePicHtml = '';
+                        // Vérification de l'existence d'une photo de profil
+                        if (data.profile_pic) {
+                            profilePicHtml = `<img src="uploads/${data.profile_pic}" alt="Photo de profil" style="border-radius: 50%; width: 50px; height: 50px;">`;
+                        } else {
+                            profilePicHtml = `<img src="uploads/default.png" alt="Photo de profil" style="border-radius: 50%; width: 50px; height: 50px;">`;
+                        }
+                        // Affichage du message de bienvenue et de la photo de profil
+                        welcomeMessageDiv.innerHTML = `<p>Bienvenue, ${data.prenom}!</p> ${profilePicHtml}`;
+                        // Ajout des liens de navigation supplémentaires pour les utilisateurs connectés
+                        navList.innerHTML += `
+                            <li class="nav__item"><a href="forum.html" class="nav__link">Forum de Discussion</a></li>
+                            <li class="nav__item"><a href="manage_account.php" class="nav__link">Mon Compte</a></li>
+                        `;
+                        // Si l'utilisateur est admin, affichage du lien vers l'espace admin
+                        if (data.is_admin) {
+                            navList.innerHTML += `
+                                <li class="nav__item"><a href="admin_home.php" class="nav__link">Espace Admin</a></li>
+                            `;
+                        }
+                        // Affichage de l'icône de déconnexion
+                        loginIconContainer.innerHTML = `
+                            <a href="logout.php"><img src="icone_deco.png" alt="Icône de déconnexion"></a>
+                        `;
+                    } else {
+                        // Si l'utilisateur n'est pas connecté, affichage des liens de connexion et d'inscription
+                        loginIconContainer.innerHTML = `
+                            <a href="login.html"><img src="login-icon.png" alt="Icône de connexion"></a>
+                        `;
+                        navList.innerHTML += `
+                            <li class="nav__item"><a href="login.html" class="nav__link">Se connecter</a></li>
+                            <li class="nav__item"><a href="register.html" class="nav__link">S'inscrire</a></li>
+                        `;
+                    }
+                });
+        });
+    </script>
+</head>
+<body>
+<div id="welcome-message"></div> <!-- Conteneur pour le message de bienvenue -->
+
+<div class="container">
+    <header class="header">
+        <h1 class="header__title">CY Traffic Laws</h1> <!-- Titre principal de la page -->
+        <p class="header__slogan">Conduisez en toute confiance</p> <!-- Slogan de la page -->
+
+        <!-- Icône pour ouvrir/fermer le menu sur les petits écrans -->
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <div class="login-icon" id="login-icon-container"></div> <!-- Conteneur pour l'icône de connexion/déconnexion -->
+
+        <nav class="nav" id="nav-menu">
+            <ul class="nav__list">
+                <!-- Liens de navigation principaux -->
+                <li class="nav__item"><a href="#" class="nav__link">Accueil</a></li>
+                <li class="nav__item"><a href="lessons.html" class="nav__link">Leçons</a></li>
+                <li class="nav__item"><a href="exercise.html" class="nav__link">Entraînement</a></li>
+                <li class="nav__item"><a href="exams.html" class="nav__link">Examens</a></li>
+                <li class="nav__item"><a href="tutoriel.html" class="nav__link">Tutoriel</a></li>
+                <li class="nav__item"><a href="Cahier_des_charges_Projet.info.pdf" class="nav__link">À propos</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="premium_redirect.php" class="nav__link">Premium</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Section de présentation du site -->
+        <section class="presentation">
+            <h2 class="presentation__title">Bienvenue sur CY Traffic Laws</h2>
+            <p class="presentation__text">Nous sommes là pour vous aider à réussir votre code de la route. Découvrez nos leçons, nos examens pratiques et d'autres ressources pour vous accompagner dans votre apprentissage.</p>
+        </section>
+
+        <!-- Section contenant une image illustrative -->
+        <section class="image">
+            <img src="route.jpg" alt="Image du code de la route">
+        </section>
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <!-- Copyright avec les noms des réalisateurs du site -->
+        <p class="footer__copyright"> Réalisation & design : @Marwa @Mariam @Hafsa.</p>
+    </div>
+</footer>
+
+<script>
+    // Fonction pour basculer le menu de navigation sur les petits écrans
+    function toggleMenu() {
+        var navMenu = document.getElementById("nav-menu");
+        navMenu.classList.toggle("active");
+    }
+</script>
+
+</body>
+</html>
