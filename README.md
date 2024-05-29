@@ -17,3 +17,6 @@ Veuillez noter que si vous utilisez un autre serveur local tel que WAMP, vous de
 
 En cas de problème d'accès à la base de données, veuillez vous assurer que les informations d'identification sont correctement configurées selon les spécifications ci-dessus.
 
+
+Le fichier princiapl du projet : projet.html
+
