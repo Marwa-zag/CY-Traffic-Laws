@@ -1,0 +1,32 @@
+body {
+    background-image: url('Image/imagefond_limitation_vitesse.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.lesson__content {
+    margin-top: 20px;
+}
+
+.lesson__content p {
+    line-height: 1.6;
+}
+
+.lesson__content img {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+.lesson__content img:nth-child(4) {
+    margin-top: 20px;
+}

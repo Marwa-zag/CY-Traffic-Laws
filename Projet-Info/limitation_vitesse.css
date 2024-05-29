@@ -1,0 +1,19 @@
+body {
+    background-image: url('Image/imagefond_limitation_vitesse.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px; /* Taille de la police augmentée */
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Arrière-plan semi-transparent */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+.lesson__content {
+    margin-top: 20px;
+}
+.lesson__content p {
+    line-height: 1.6;
+}
